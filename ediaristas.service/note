@@ -1,0 +1,20 @@
+Criar projeto Django
+django-admin startproject [nome_do_projeto]
+
+Iniciar um projeto (app)
+(no diretório [nome_do_projeto]) python manage.py startapp [nome]
+
+Iniciar o servidor
+python manage.py runserver
+
+Registrar a aplicação em settings.py
+
+Instalar pacote Pillow (gerenciar upload de imagens)
+
+Criar as tabelas no arquivo models.py
+
+Montar as migrações
+$python manage.py makemigrations
+
+Realizar as migrações
+$python manage.py migrate
